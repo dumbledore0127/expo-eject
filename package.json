@@ -5,7 +5,8 @@
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "pod-install": "cd ios && bundle exec pod install --repo-update"
   },
   "dependencies": {
     "expo": "~47.0.12",
